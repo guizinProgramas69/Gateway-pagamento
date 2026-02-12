@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(138, 138, 192);
+    padding: 25px;
+}
+
+.container form{
+    width: 700px;
+    padding: 40px;
+    background-color: aliceblue;
+border-radius: 20px;
+
+}
+
+form .row{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.row .column{
+    flex: 1 1 250px;
+    
+}
+
+.column .title{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.column .input-box{
+    width: 100%;
+    padding: 10px 15px;
+    border: rgb(200, 30, 30);
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.input-box spam{
+    display: block;
+    margin-bottom: 10px;
+   
+}
+
+.column .flex{
+    display: flex;
+    gap: 15px;
+}
+.flex .input-box{
+    margin-top: 5px;
+}
+
+.input-box img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+form .btn{
+    width: 100%;
+    padding: 12px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form .btn:hover{
+    background: rgb(18, 214, 67);
+}
